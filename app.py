@@ -9,8 +9,8 @@ Open: http://localhost:5000
 import os
 from flask import Flask, render_template, request, jsonify
 from dotenv import load_dotenv
-from modules.trending import get_trending_topics
-from modules.generator import generate_geo_content
+from trending import get_trending_topics
+from generator import generate_geo_content
 
 load_dotenv()
 
